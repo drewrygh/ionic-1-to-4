@@ -2,16 +2,36 @@
   <ion-content class="padding">
     <h2>Welcome to Ionic</h2>
     <p>
-    This is the Ionic starter for tabs-based apps. For other starters and ready-made templates, check out the <a href="http://market.ionic.io/starters" target="_blank" rel="noopener">Ionic Market</a>.
+      This is an Ionic 1 app with some v4 components mixed in! ✨
     </p>
-    <p>
-      To edit the content of each tab, edit the corresponding template file in <code>www/templates/</code>. This template is <code>www/templates/tab-dash.html</code>
-    </p>
-    <p>
-    If you need help with your app, join the Ionic Community on the <a href="http://forum.ionicframework.com" target="_blank" rel="noopener">Ionic Forum</a>. Make sure to <a href="http://twitter.com/ionicframework" target="_blank" rel="noopener">follow us</a> on Twitter to get important updates and announcements for Ionic developers.
-    </p>
-    <p>
-      <b>Psst!</b> - Try <a href="http://view.ionic.io/">Ionic View</a> to easily share and test your app with clients and co-workers.
-    </p>
+
+
+  <div>
+  	<ion-label>Pick a date:</ion-label>
+  	<ion-datetime display-format="MMM DD, YYYY HH:mm" style="border: 1px solid #ccc; margin-bottom: 10px;"></ion-datetime>
+  </div>
+
+  <div>
+  	<button class="button button-balanced" ng-click="showToast()">Show v4 toast</button>
+  </div>
+
+  <div>
+  	<button class="button button-positive" ng-click="showV4Modal()">Show v4 modal</button>
+  </div>
+
+  <div>
+  	<ion-label>v4 Checkbox</ion-label>
+  	<ion-checkbox color="primary" checked></ion-checkbox>
+  </div>
+
+  <div>
+  	<ion-label>v4 Toggle</ion-label>
+  	<ion-toggle></ion-toggle>
+  </div>
+
+  <div>
+  	<ion-textarea></ion-textarea>
+  </div>
+
   </ion-content>
 </ion-view>
